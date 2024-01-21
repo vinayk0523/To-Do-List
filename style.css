@@ -1,0 +1,64 @@
+body{
+
+    background-color: aquamarine;
+    
+}
+
+#taskTable {
+    width: 70%;
+    margin-left: 180px;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+
+th, td {
+    border: 1px solid #150101;     
+    text-align: center;
+    padding: 18px;
+}
+
+th {
+    background-color:white
+}
+}
+
+
+.taskList{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.addTask{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.center{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+   #taskTable {
+        width: 70%;
+        margin: auto;
+    }
+
+    .center {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    #taskTable {
+        width: 40%;
+        margin: auto;
+    }
+
+    .center {
+        width: 40%;
+        margin: auto;
+    }
+}

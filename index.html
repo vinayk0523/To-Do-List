@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+
+    <h2 class="addTask">Add Task</h2>
+
+    <div class="center">
+    <label for="task">Task:</label>
+    <input type="text" id="task">
+
+    <label for="date">Date:</label>
+    <input type="text" id="date">
+
+    <button onclick="addTask()">Add Task</button>
+    <button onclick="resetFields()">Reset</button>
+    </div>
+
+    <h2 class="taskList">Task List</h2>
+    <table id="taskTable">
+        <tr>
+            <th>Task</th>
+            <th>Date</th>
+        </tr>
+    </table>
+
+</body>
+</html>
